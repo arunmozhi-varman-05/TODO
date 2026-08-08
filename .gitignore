@@ -1,15 +1,50 @@
+# ===== Android / Gradle =====
 *.iml
 .gradle
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+/.idea/
 .DS_Store
 /build
 /captures
 .externalNativeBuild
 .cxx
 local.properties
+*.apk
+*.aab
+*.ap_
+
+# ===== Kotlin =====
+.kotlin/
+
+# ===== Python / Backend =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+backend/venv/
+backend/*.db
+backend/.env
+.env
+
+# ===== Flutter / Dart =====
+mobile/.dart_tool/
+mobile/.packages
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/build/
+mobile/.metadata
+mobile/pubspec.lock
+
+# ===== IDE =====
+.vscode/
+*.swp
+*.swo
+*~
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Misc =====
+*.log
+implementation_plan.md
